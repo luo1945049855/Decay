@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\bind">
+      <UniqueIdentifier>{9c4983ab-c321-4feb-a4bc-2ae310cc90d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{3090e82a-d725-487d-b7dd-28f4c1910b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Doc">
+      <UniqueIdentifier>{28b637eb-6bc1-4aca-95e1-59db82ba96a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Doc\bind">
+      <UniqueIdentifier>{fd45b006-0b1a-4ee5-ac50-d83e0485a5d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Decay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SFINAE.hpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExtractReturnAndArgs.h">
+      <Filter>Source Files\bind</Filter>
+    </ClInclude>
+    <ClInclude Include="Specialization.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultArgs.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayInTemplate.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaFunctionAndTypeTraits.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="VariadicTemplate.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="EnableIf.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="CompileTimeComputation.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Doc\decay.md">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="..\Doc\enable_if.md">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="..\Doc\is_emtpy.md">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="..\Doc\SFINAE.md">
+      <Filter>Doc</Filter>
+    </None>
+    <None Include="..\Doc\bind\callback.md">
+      <Filter>Doc\bind</Filter>
+    </None>
+    <None Include="..\Doc\bind\return_type.md">
+      <Filter>Doc\bind</Filter>
+    </None>
+    <None Include="decltype_declval.md">
+      <Filter>Doc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
